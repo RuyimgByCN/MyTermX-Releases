@@ -1,64 +1,64 @@
-# MyTermX
+# MyTermX Releases
 
-跨平台 SSH/SFTP 终端客户端，支持云同步、AI 助手、自动化运维。
+Last checked: 2026-05-31
 
-## 功能亮点
+This repository is the public release channel for MyTermX installers and update
+notes. Source code lives in private development repositories; this repository
+should contain release-facing documentation, screenshots, and GitHub Release
+attachments only.
 
-- **SSH 连接** — 多会话、分屏终端（最多 4 窗格）
-- **SFTP/FTP 文件传输** — 断点续传
-- **AI 助手** — 通用/Shell/代码审查/运维 4 种模式
-- **自动化运维** — 批量执行、定时任务
-- **DevOps 集成** — Docker/K8s 管理
-- **远程桌面** — VNC/RDP
-- **端口转发 & 隧道**
-- **插件系统**
-- **团队协作** — 工作区共享
-- **命令历史 & 代码片段**
-- **多主题 & 多语言** — 中/英/日/韩
-- **会话恢复** — SQLite 持久化
-- **云同步** — JWT + WebSocket
-- **跳板机** (Jump Host)
-- **本地终端** (PTY)
+## Current Status
 
-## 下载
+No installer binaries are committed to the repository tree. Download artifacts
+should be attached to GitHub Releases:
 
-| 平台 | 安装包 |
+[GitHub Releases](https://github.com/RuyimgByCN/MyTermX-Releases/releases)
+
+## Expected Artifacts
+
+| Platform | Artifact |
 |---|---|
-| macOS (Apple Silicon) | [MyTermX-{version}-arm64.dmg](https://github.com/RuyimgByCN/MyTermX-Releases/releases) |
-| macOS (Intel) | [MyTermX-{version}-x64.dmg](https://github.com/RuyimgByCN/MyTermX-Releases/releases) |
-| Windows | [MyTermX-Setup-{version}.exe](https://github.com/RuyimgByCN/MyTermX-Releases/releases) |
-| Linux (AppImage) | [MyTermX-{version}.AppImage](https://github.com/RuyimgByCN/MyTermX-Releases/releases) |
-| Android | [MyTermX-{version}-android.apk](https://github.com/RuyimgByCN/MyTermX-Releases/releases) |
+| macOS Apple Silicon | `MyTermX-<version>-arm64.dmg` |
+| macOS Intel | `MyTermX-<version>-x64.dmg` |
+| Windows | `MyTermX-Setup-<version>.exe` |
+| Linux | `MyTermX-<version>.AppImage` |
+| Android | `MyTermX-<version>-android.apk` |
 
-## 安装指南
+## Install Notes
 
 ### macOS
-1. 下载 `.dmg` 文件
-2. 双击打开，将 MyTermX 拖入 Applications 文件夹
-3. 首次打开如提示安全警告，前往「系统设置 → 隐私与安全性」点击「仍要打开」
+
+1. Download the matching `.dmg`.
+2. Open it and drag MyTermX into Applications.
+3. If macOS blocks the first launch, open System Settings -> Privacy & Security
+   and allow the app.
 
 ### Windows
-1. 下载 `.exe` 安装程序
-2. 双击运行，按照安装向导完成安装
+
+1. Download the `.exe` installer.
+2. Run the installer and follow the prompts.
 
 ### Linux
-1. 下载 `.AppImage` 文件
-2. `chmod +x MyTermX-*.AppImage`
-3. `./MyTermX-*.AppImage`
+
+```bash
+chmod +x MyTermX-*.AppImage
+./MyTermX-*.AppImage
+```
 
 ### Android
-1. 下载 `.apk` 文件
-2. 允许「未知来源」安装
-3. 点击 apk 完成安装
 
-## Changelog
+1. Download the `.apk`.
+2. Allow installation from the selected source.
+3. Install the APK.
 
-详见 [GitHub Releases](https://github.com/RuyimgByCN/MyTermX-Releases/releases)
+## Release Documentation Rules
 
-## 官网
+- Keep implementation architecture and internal migration plans out of this
+  repository.
+- Put changelog entries in the GitHub Release body for each version.
+- Keep screenshots under `screenshots/` and avoid committing generated
+  installer binaries directly to git.
 
-[https://mytermx.com](https://mytermx.com)
+## License
 
-## 许可证
-
-Copyright 2025 Ruyimg. All rights reserved.
+Copyright 2026 Ruyimg. All rights reserved.
