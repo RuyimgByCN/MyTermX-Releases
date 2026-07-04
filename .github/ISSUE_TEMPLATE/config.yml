@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Latest release downloads
+    url: https://github.com/RuyimgByCN/MyTermX-Releases/releases/latest
+    about: Download the latest published MyTermX build.

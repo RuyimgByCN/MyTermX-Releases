@@ -1,0 +1,75 @@
+name: Bug Report
+description: Report a problem with a released MyTermX build.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a MyTermX release issue. Please do not include passwords, private keys, tokens, server secrets, or private hostnames.
+  - type: input
+    id: version
+    attributes:
+      label: MyTermX version
+      description: Use the version shown in the app or the GitHub Release name.
+      placeholder: "v0.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS Apple Silicon
+        - macOS Intel
+        - Windows
+        - Linux
+        - Android
+        - iOS
+    validations:
+      required: true
+  - type: input
+    id: os_version
+    attributes:
+      label: OS version
+      placeholder: "macOS 15.5 / Windows 11 24H2 / Ubuntu 24.04"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the visible problem.
+      placeholder: "The app crashes when..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open MyTermX
+        2. Connect to...
+        3. Click...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Attach screenshots or redacted logs. Remove credentials, tokens, hostnames, and private paths first.
+      render: text
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed secrets, tokens, private keys, passwords, private hostnames, and private paths from this report.
+          required: true

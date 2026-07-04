@@ -1,0 +1,53 @@
+name: Feature Request
+description: Suggest a user-facing MyTermX improvement.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for user-facing release requests. Internal source-code or security-sensitive details should stay out of this public repository.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - SSH terminal
+        - SFTP / file transfer
+        - Hosts / sync
+        - Vault / credentials
+        - AI
+        - Teams
+        - Desktop packaging
+        - Mobile packaging
+        - Website / downloads
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: What should MyTermX do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives tried
+      description: Optional. What workaround or competing app behavior should we know about?
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This request is about released or user-facing MyTermX behavior, not private source-code internals.
+          required: true
