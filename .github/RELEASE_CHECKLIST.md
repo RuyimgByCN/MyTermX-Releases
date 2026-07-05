@@ -12,9 +12,11 @@ Use this checklist before publishing a GitHub Release in `MyTermX-Releases`.
 ## Artifacts
 
 - [ ] macOS Apple Silicon DMG: `MyTermX-<version>-arm64.dmg`
-- [ ] macOS Intel DMG: `MyTermX-<version>-x64.dmg`
-- [ ] Windows installer: `MyTermX-Setup-<version>.exe`
+- [ ] macOS Apple Silicon archive: `MyTermX-<version>-arm64-mac.zip`
+- [ ] Windows installer: `MyTermX.Setup.<version>.exe`
+- [ ] Windows archive: `MyTermX-<version>-win.zip`
 - [ ] Linux AppImage: `MyTermX-<version>.AppImage`
+- [ ] Linux archive: `mytermx-<version>.tar.gz`
 - [ ] Android/iOS artifacts, if this release includes mobile packages.
 - [ ] Checksums generated and stored with the release notes or artifacts.
 

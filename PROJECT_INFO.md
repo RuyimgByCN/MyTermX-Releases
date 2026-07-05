@@ -17,16 +17,20 @@ attachments. It is not a source-code repository for the product.
 
 ## Artifact Naming
 
-Expected release assets:
+Current release assets use the numeric version without the leading `v`:
 
 | Platform | Pattern |
 |---|---|
 | macOS Apple Silicon | `MyTermX-<version>-arm64.dmg` |
-| macOS Intel | `MyTermX-<version>-x64.dmg` |
-| Windows | `MyTermX-Setup-<version>.exe` |
+| macOS Apple Silicon archive | `MyTermX-<version>-arm64-mac.zip` |
+| Windows installer | `MyTermX.Setup.<version>.exe` |
+| Windows archive | `MyTermX-<version>-win.zip` |
 | Linux | `MyTermX-<version>.AppImage` |
+| Linux archive | `mytermx-<version>.tar.gz` |
 
 Add mobile artifact names here once Android/iOS release packaging is finalized.
+
+Latest documented release: `v0.2.0`, published 2026-05-28.
 
 ## Important Design Decisions
 

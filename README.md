@@ -40,12 +40,16 @@ Grab the latest build from GitHub Releases:
 
 ➡️ **[Latest Release](https://github.com/RuyimgByCN/MyTermX-Releases/releases/latest)**
 
+Current latest: **v0.2.0** · Published **2026-05-28**
+
 | Platform | Artifact | Notes |
 |---|---|---|
-| macOS (Apple Silicon) | `MyTermX-<version>-arm64.dmg` | M-series Macs |
-| macOS (Intel) | `MyTermX-<version>-x64.dmg` | Intel Macs |
-| Windows | `MyTermX-Setup-<version>.exe` | Windows 10 / 11 |
-| Linux | `MyTermX-<version>.AppImage` | Most distributions |
+| macOS (Apple Silicon) | [`MyTermX-0.2.0-arm64.dmg`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.0/MyTermX-0.2.0-arm64.dmg) | M-series Macs |
+| macOS (Apple Silicon) | [`MyTermX-0.2.0-arm64-mac.zip`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.0/MyTermX-0.2.0-arm64-mac.zip) | Portable archive |
+| Windows | [`MyTermX.Setup.0.2.0.exe`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.0/MyTermX.Setup.0.2.0.exe) | Windows 10 / 11 installer |
+| Windows | [`MyTermX-0.2.0-win.zip`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.0/MyTermX-0.2.0-win.zip) | Portable archive |
+| Linux | [`MyTermX-0.2.0.AppImage`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.0/MyTermX-0.2.0.AppImage) | Most distributions |
+| Linux | [`mytermx-0.2.0.tar.gz`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.0/mytermx-0.2.0.tar.gz) | Tarball |
 
 > Binaries are attached to GitHub Releases only — they are **not** committed
 > to this repository's git tree.
@@ -106,12 +110,16 @@ Android 与 iOS。它为你的每一台设备带来现代、精致的终端体�
 
 ➡️ **[最新版本](https://github.com/RuyimgByCN/MyTermX-Releases/releases/latest)**
 
+当前最新：**v0.2.0** · 发布时间：**2026-05-28**
+
 | 平台 | 文件名 | 说明 |
 |---|---|---|
-| macOS（Apple Silicon） | `MyTermX-<version>-arm64.dmg` | M 系列芯片 Mac |
-| macOS（Intel） | `MyTermX-<version>-x64.dmg` | Intel 芯片 Mac |
-| Windows | `MyTermX-Setup-<version>.exe` | Windows 10 / 11 |
-| Linux | `MyTermX-<version>.AppImage` | 主流发行版 |
+| macOS（Apple Silicon） | [`MyTermX-0.2.0-arm64.dmg`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.0/MyTermX-0.2.0-arm64.dmg) | M 系列芯片 Mac |
+| macOS（Apple Silicon） | [`MyTermX-0.2.0-arm64-mac.zip`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.0/MyTermX-0.2.0-arm64-mac.zip) | 便携压缩包 |
+| Windows | [`MyTermX.Setup.0.2.0.exe`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.0/MyTermX.Setup.0.2.0.exe) | Windows 10 / 11 安装包 |
+| Windows | [`MyTermX-0.2.0-win.zip`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.0/MyTermX-0.2.0-win.zip) | 便携压缩包 |
+| Linux | [`MyTermX-0.2.0.AppImage`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.0/MyTermX-0.2.0.AppImage) | 主流发行版 |
+| Linux | [`mytermx-0.2.0.tar.gz`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.0/mytermx-0.2.0.tar.gz) | tarball |
 
 > 安装包仅附在 GitHub Releases 中 —— **不会**提交到本仓库的 git 树。
 
