@@ -38,6 +38,8 @@ Latest documented release: `v0.2.0`, published 2026-05-28.
   build outputs.
 - Keep user-facing claims aligned with the latest shipped release, not merely
   with private mainline code.
+- When the latest release changes, update the README download table and the
+  static download snapshot in `../MyTermX-Web/src/app/page.tsx` in the same pass.
 - Issues here are public product feedback. Internal implementation details,
   private repo paths, credentials, and unreleased security notes should stay out.
 - The license is proprietary. Do not add open-source license language unless the
@@ -53,4 +55,5 @@ Before publishing a release:
 3. Upload installers to a GitHub Release here.
 4. Update release notes with user-visible changes and known issues.
 5. Keep the README download table accurate.
+6. Update the website release snapshot in `../MyTermX-Web/src/app/page.tsx`.
 ```
