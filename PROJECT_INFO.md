@@ -1,6 +1,6 @@
 # MyTermX Releases Project Info
 
-Last updated: 2026-07-05
+Last updated: 2026-10-24
 
 ## Purpose
 
@@ -21,16 +21,16 @@ Current release assets use the numeric version without the leading `v`:
 
 | Platform | Pattern |
 |---|---|
-| macOS Apple Silicon | `MyTermX-<version>-arm64.dmg` |
-| macOS Apple Silicon archive | `MyTermX-<version>-arm64-mac.zip` |
-| Windows installer | `MyTermX.Setup.<version>.exe` |
-| Windows archive | `MyTermX-<version>-win.zip` |
-| Linux | `MyTermX-<version>.AppImage` |
-| Linux archive | `mytermx-<version>.tar.gz` |
+| macOS Apple Silicon | `MyTermX_<version>_aarch64.dmg` |
+| macOS Intel | `MyTermX_<version>_x64.dmg` |
+| Windows x64 NSIS installer | `MyTermX_<version>_x64-setup.exe` |
+| Windows x64 MSI installer | `MyTermX_<version>_x64_en-US.msi` |
+| Linux amd64 DEB package | `MyTermX_<version>_amd64.deb` |
+| Linux amd64 AppImage | `MyTermX_<version>_amd64.AppImage` |
 
 Add mobile artifact names here once Android/iOS release packaging is finalized.
 
-Latest documented release: `v0.2.0`, published 2026-05-28.
+Latest documented release: `v0.2.3`, published 2026-10-24.
 
 ## Important Design Decisions
 
