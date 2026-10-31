@@ -1,1 +1,9 @@
 .DS_Store
+
+# Installers belong in GitHub Releases, never in this public tree.
+/local-builds/
+
+# Maintainer docs live in ../dev-docs/MyTermX-Releases.
+/*.md
+!/README.md
+/.github/*.md
