@@ -51,6 +51,10 @@ Current latest: **v0.2.3** · Published **2026-10-24**
 | Linux (amd64) | [`MyTermX_0.2.3_amd64.deb`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.3/MyTermX_0.2.3_amd64.deb) | Debian / Ubuntu package |
 | Linux (amd64) | [`MyTermX_0.2.3_amd64.AppImage`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.3/MyTermX_0.2.3_amd64.AppImage) | AppImage |
 
+Each release also attaches `SHA256SUMS.txt` for verifying the downloads.
+Android and iOS builds are not published yet; the current release covers
+desktop platforms only.
+
 > Binaries are attached to GitHub Releases only — they are **not** committed
 > to this repository's git tree.
 
@@ -120,6 +124,9 @@ Android 与 iOS。它为你的每一台设备带来现代、精致的终端体�
 | Windows（x64） | [`MyTermX_0.2.3_x64_en-US.msi`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.3/MyTermX_0.2.3_x64_en-US.msi) | MSI 安装包 |
 | Linux（amd64） | [`MyTermX_0.2.3_amd64.deb`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.3/MyTermX_0.2.3_amd64.deb) | Debian / Ubuntu 软件包 |
 | Linux（amd64） | [`MyTermX_0.2.3_amd64.AppImage`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.2.3/MyTermX_0.2.3_amd64.AppImage) | AppImage |
+
+每个版本同时附带 `SHA256SUMS.txt`，可用于校验下载文件。
+Android 与 iOS 安装包暂未发布，当前版本仅提供桌面端。
 
 > 安装包仅附在 GitHub Releases 中 —— **不会**提交到本仓库的 git 树。
 
