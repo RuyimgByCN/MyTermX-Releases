@@ -40,16 +40,16 @@ Grab the latest build from GitHub Releases:
 
 ➡️ **[Latest Release](https://github.com/RuyimgByCN/MyTermX-Releases/releases/latest)**
 
-Current latest: **v0.3.0** · Published **2026-11-26**
+Current latest: **v0.4.0** · Published **2026-11-26**
 
 | Platform | Artifact | Notes |
 |---|---|---|
-| macOS (Apple Silicon) | [`MyTermX_0.3.0_aarch64.dmg`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.3.0/MyTermX_0.3.0_aarch64.dmg) | M-series Macs |
-| macOS (Intel) | [`MyTermX_0.3.0_x64.dmg`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.3.0/MyTermX_0.3.0_x64.dmg) | Intel Macs |
-| Windows (x64) | [`MyTermX_0.3.0_x64-setup.exe`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.3.0/MyTermX_0.3.0_x64-setup.exe) | NSIS installer |
-| Windows (x64) | [`MyTermX_0.3.0_x64_en-US.msi`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.3.0/MyTermX_0.3.0_x64_en-US.msi) | MSI installer |
-| Linux (amd64) | [`MyTermX_0.3.0_amd64.deb`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.3.0/MyTermX_0.3.0_amd64.deb) | Debian / Ubuntu package |
-| Linux (amd64) | [`MyTermX_0.3.0_amd64.AppImage`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.3.0/MyTermX_0.3.0_amd64.AppImage) | AppImage |
+| macOS (Apple Silicon) | [`MyTermX_0.4.0_aarch64.dmg`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.4.0/MyTermX_0.4.0_aarch64.dmg) | M-series Macs |
+| macOS (Intel) | [`MyTermX_0.4.0_x64.dmg`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.4.0/MyTermX_0.4.0_x64.dmg) | Intel Macs |
+| Windows (x64) | [`MyTermX_0.4.0_x64-setup.exe`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.4.0/MyTermX_0.4.0_x64-setup.exe) | NSIS installer |
+| Windows (x64) | [`MyTermX_0.4.0_x64_en-US.msi`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.4.0/MyTermX_0.4.0_x64_en-US.msi) | MSI installer |
+| Linux (amd64) | [`MyTermX_0.4.0_amd64.deb`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.4.0/MyTermX_0.4.0_amd64.deb) | Debian / Ubuntu package |
+| Linux (amd64) | [`MyTermX_0.4.0_amd64.AppImage`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.4.0/MyTermX_0.4.0_amd64.AppImage) | AppImage |
 
 Each release also attaches `SHA256SUMS.txt` for verifying the downloads.
 Android and iOS builds are not published yet; the current release covers
@@ -79,7 +79,7 @@ chmod +x MyTermX_*.AppImage
 
 ### 🔄 Updates
 
-Visit the
+Check for updates in *Settings → Appearance* inside MyTermX, or visit the
 [Releases page](https://github.com/RuyimgByCN/MyTermX-Releases/releases)
 to download the latest build manually.
 
@@ -114,16 +114,16 @@ Android 与 iOS。它为你的每一台设备带来现代、精致的终端体�
 
 ➡️ **[最新版本](https://github.com/RuyimgByCN/MyTermX-Releases/releases/latest)**
 
-当前最新：**v0.3.0** · 发布时间：**2026-11-26**
+当前最新：**v0.4.0** · 发布时间：**2026-11-26**
 
 | 平台 | 文件名 | 说明 |
 |---|---|---|
-| macOS（Apple Silicon） | [`MyTermX_0.3.0_aarch64.dmg`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.3.0/MyTermX_0.3.0_aarch64.dmg) | M 系列芯片 Mac |
-| macOS（Intel） | [`MyTermX_0.3.0_x64.dmg`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.3.0/MyTermX_0.3.0_x64.dmg) | Intel Mac |
-| Windows（x64） | [`MyTermX_0.3.0_x64-setup.exe`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.3.0/MyTermX_0.3.0_x64-setup.exe) | NSIS 安装包 |
-| Windows（x64） | [`MyTermX_0.3.0_x64_en-US.msi`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.3.0/MyTermX_0.3.0_x64_en-US.msi) | MSI 安装包 |
-| Linux（amd64） | [`MyTermX_0.3.0_amd64.deb`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.3.0/MyTermX_0.3.0_amd64.deb) | Debian / Ubuntu 软件包 |
-| Linux（amd64） | [`MyTermX_0.3.0_amd64.AppImage`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.3.0/MyTermX_0.3.0_amd64.AppImage) | AppImage |
+| macOS（Apple Silicon） | [`MyTermX_0.4.0_aarch64.dmg`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.4.0/MyTermX_0.4.0_aarch64.dmg) | M 系列芯片 Mac |
+| macOS（Intel） | [`MyTermX_0.4.0_x64.dmg`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.4.0/MyTermX_0.4.0_x64.dmg) | Intel Mac |
+| Windows（x64） | [`MyTermX_0.4.0_x64-setup.exe`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.4.0/MyTermX_0.4.0_x64-setup.exe) | NSIS 安装包 |
+| Windows（x64） | [`MyTermX_0.4.0_x64_en-US.msi`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.4.0/MyTermX_0.4.0_x64_en-US.msi) | MSI 安装包 |
+| Linux（amd64） | [`MyTermX_0.4.0_amd64.deb`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.4.0/MyTermX_0.4.0_amd64.deb) | Debian / Ubuntu 软件包 |
+| Linux（amd64） | [`MyTermX_0.4.0_amd64.AppImage`](https://github.com/RuyimgByCN/MyTermX-Releases/releases/download/v0.4.0/MyTermX_0.4.0_amd64.AppImage) | AppImage |
 
 每个版本同时附带 `SHA256SUMS.txt`，可用于校验下载文件。
 Android 与 iOS 安装包暂未发布，当前版本仅提供桌面端。
@@ -150,7 +150,7 @@ chmod +x MyTermX_*.AppImage
 
 ### 🔄 更新
 
-请访问
+可在 MyTermX 内的 *设置 → 外观* 中检查应用内更新，或访问
 [Releases 页面](https://github.com/RuyimgByCN/MyTermX-Releases/releases)
 手动下载最新版本。
 
